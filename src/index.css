@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.nav-tomorrow{
+ 
+  width: 100%;
+  background-color: rgb(229, 212, 190);
+  border-radius: 8px;
+  width: auto;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-tomorrow ul{
+  list-style-type: none;
+  display: flex;
+}
+.txt-tomorrowland{
+  font-size: 35px;
+}
+.txt-about{
+  font-size: 35px;
+  padding-left: 950px;
+  text-decoration: none;
+}
+.txt-welcome{
+  text-align: center;
+}
+.txt-welcome-btn{
+  padding-left:550 ;
+  width: 100px;
+  height: 50px;
 }
