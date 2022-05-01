@@ -4,10 +4,9 @@ const navbar = () => {
     <div className="App">
         <div className="navbar">
             <div className="nav-tomorrow">
-                <ul>
+                <ul className="ul-list">
                     <li><h1 className="txt-tomorrowland">Tomorrowland</h1></li>
-
-                    <li><h1 className="txt-about">link</h1></li>
+              
                   
                 </ul>
             </div>

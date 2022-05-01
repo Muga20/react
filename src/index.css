@@ -1,19 +1,15 @@
 .nav-tomorrow{
- 
   width: 100%;
   background-color: rgb(229, 212, 190);
   border-radius: 8px;
   width: auto;
+  height:70px;
 }
-.nav-tomorrow ul{
-  list-style-type: none;
-  display: flex;
+.ul-list{
+  list-style: none;
 }
-.txt-tomorrowland{
-  font-size: 35px;
-}
+
 .txt-about{
-  font-size: 35px;
   padding-left: 950px;
   text-decoration: none;
 }
@@ -24,4 +20,49 @@
   padding-left:550 ;
   width: 100px;
   height: 50px;
+}
+
+/* Cards-Style */
+.div-card{
+  background-color: rgba(243, 203, 203, 0.911);
+  border-radius: 8px;
+  width: 500px;
+  height: 300px;
+  box-shadow: 3px 3px 3px 3px rgba(228, 175, 175, 0.911);
+}
+.card-title-one{
+  text-align: center;
+  font-size: 35px;
+  color: rgba(224, 22, 22, 0.63);
+}
+.card-id-one{
+  text-align: center;
+}
+.card-list-one {
+  list-style-type: none;
+  display: flex;
+  padding-left: 200px;
+  
+}
+.card-button-one{
+  background-color: rgba(0, 0, 0, 0.911);
+  color: azure;
+  border: solid black 2px;
+  border-radius: 3px;
+  height: 30px;
+  box-shadow: 3px 3px 3px rgb(4, 12, 15);
+}
+.card-button-two{
+  background-color: rgba(240, 28, 28, 0.911);
+  color: azure;
+  border: solid rgb(223, 37, 37) 2px;
+  border-radius: 3px;
+  height: 30px;
+  box-shadow: 3px 3px 3px rgb(235, 39, 65);
+}
+.h3-one{
+  color: rgb(20, 20, 20);
+}
+.card-button-two :hover{
+  background-color: rgba(218, 67, 67, 0.911);
 }
