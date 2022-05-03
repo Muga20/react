@@ -1,10 +1,10 @@
-{
-    "events": [
-	{
+
+    
+	{ "events": [{
 	"id" : "1","name": "Edm ","note": "Book your Ticket as early as now and get a chance to meet top Djs Happy ...","date": "Event on 25th jully 2022","button":"Ticket","info":"Info"
 	},{"id" : "2","name": "Edm ","note": "Book your Ticket as early as now and get a chance to meet top Djs Happy ...","date": "Event on 25th jully 2022","button":"Ticket", "info":"Info"
 	},{"id" : "3","name": "Rock ","note": "Book your Ticket as early as now and get a chance to meet top Djs Happy ...","date": "Event on 25th jully 2022","button":"Ticket", "info":"Info"},{
 	"id" : "4","name": "Single ","note": "Book your Ticket as early as now and get a chance to meet top Djs Happy ...","date": "Event on 25th jully 2022", "button":"Ticket","info":"Info"},{"id" : "5","name": "Houes ","note": "Book your Ticket as early as now and get a chance to meet top Djs Happy ...","date": "Event on 25th jully 2022", "button":"Ticket", "info":"Info"},{"id" : "6","name": "MNN","note": "Book your Ticket as early as now and get a chance to meet top Djs Happy ...","date": "Event on 25th jully 2022", "button":"Ticket", "info":"Info"
-	}	
-]
-}
+	}]}
+
+

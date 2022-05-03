@@ -4,6 +4,23 @@
   border-radius: 8px;
   width: auto;
   height:70px;
+  display: flex;
+}
+.link-one{
+  text-align: center;
+  font-size: 29px;
+
+}
+.ul-link{
+  display: flex;
+  list-style: none;
+  padding-left: 800px;
+  text-decoration: none;
+}
+.txt-tomorrowland{
+  padding-left: 4px;
+  color: rgb(241, 186, 114);
+  padding-top: 5px;
 }
 .ul-list{
   list-style: none;
@@ -26,8 +43,6 @@
 .div-card{
   background-color: rgba(243, 203, 203, 0.911);
   border-radius: 8px;
-  width: 500px;
-  height: 300px;
   box-shadow: 3px 3px 3px 3px rgba(228, 175, 175, 0.911);
 }
 .card-title-one{
@@ -37,11 +52,16 @@
 }
 .card-id-one{
   text-align: center;
+  border: solid rgba(231, 122, 122, 0.911) 6px;
+  width: 200px;
+  border-radius: 9px;
+  0
+ 
 }
 .card-list-one {
   list-style-type: none;
   display: flex;
-  padding-left: 200px;
+ 
   
 }
 .card-button-one{
@@ -65,4 +85,18 @@
 }
 .card-button-two :hover{
   background-color: rgba(218, 67, 67, 0.911);
+}
+.flex-container {
+  display: flex;
+}
+.loading{
+  font-size: 27px;
+  color: rgb(250, 83, 53);
+  text-align: center;
+}
+.ul-list-two{
+  display: flex;
+}
+.add-new{
+  padding-left: 50px;
 }

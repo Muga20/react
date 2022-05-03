@@ -1,21 +1,18 @@
-import {useState ,useEffect} from "react"
+
 import Propevents from "./Propevents";
+import Reuse from "./Reuse";
 function Event() {
 
-   const [event, setEvent] = useState(null);
+    const {data , isPending } =Reuse('http://localhost:8000/events');
 
-   useEffect(()=> {
-         fetch('http://localhost:8000/events')
-         .then(res => {
-             return res.json();
-         })
-         .then(data =>{
-             setEvent(data)
-         })
-        } ,[]);
-   
-   return (
-   <div className="App">
-  { event && <Propevents event={event} />}
-   </div>)}
+    return(
+
+     <div className="App">
+      {isPending && <div className="loading">LOADING.........</div>}   
+      {data && <Propevents event={data} />}
+      </div>
+    ); }
+    
 export default Event;
+
+/* npx json-server --watch data/db.json --port 8000*/
