@@ -3,12 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Navbar from './components/Navbar';
-// import Home from './components/Home';
-// import Map from './components/Map';
-import Event from './components/Events';
-// import Reuse from './components/ReusingComp';
 
-// import {Greet} from './components/greet';
+
+import Event from './components/Events';
+
 
 import reportWebVitals from './reportWebVitals';
 
